@@ -1,5 +1,4 @@
 function solution(N = 529) {
-  // Implement your solution here
   let binary = N.toString(2);
   let maxGap = 0;
   let cGap = 0;
@@ -17,8 +16,8 @@ function solution(N = 529) {
       cGap++;
     }
   }
-  console.log(maxGap);
+  // console.log(maxGap);
   return maxGap;
 }
 
-solution();
+console.log(solution());

@@ -16,11 +16,8 @@ function TapeEquilibrium(A) {
       minDiff = diff;
     }
   }
-  console.log(minDiff, "minDiff");
-  console.log(totalSum, "totalsum");
-  console.log(leftSum, "leftsum");
-  console.log(rightSum, "rightsum");
+
   return minDiff;
 }
 
-TapeEquilibrium([3, 1, 2, 4, 3]);
+console.log(TapeEquilibrium([3, 1, 2, 4, 3]));
