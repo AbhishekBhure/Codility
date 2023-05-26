@@ -4,10 +4,10 @@ function Dominator(A) {
 
   for (let i = 0; i < A.length; i++) {
     if (stack.length === 0) {
-      stack.push[A[i]];
+      stack.push(A[i]);
       x = i;
     } else if (stack[stack.length - 1] === A[i]) {
-      stack.push[A[i]];
+      stack.push(A[i]);
     } else {
       stack.pop();
     }
